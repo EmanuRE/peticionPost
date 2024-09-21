@@ -1,43 +1,43 @@
 .menu-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: linear-gradient(to bottom, #03249d, #1d0a73);
-    border-radius: 30px;
-    padding: 40px;
-    width: 350px;
-    margin: 0 auto;
-  }
-  
-  .menu-title {
-    background-color: #2d6682;
-    color: white;
-    border: none;
-    padding: 20px 40px;
-    font-size: 30px;
-    border-radius: 15px;
-    margin-bottom: 30px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  .menu-button {
-    background-color: #1fa3ec;
-    color: white;
-    border: none;
-    padding: 20px 40px;
-    font-size: 24px;
-    border-radius: 15px;
-    margin: 20px 0;
-    width: 100%;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .menu-button:hover {
-    background-color: #0f7fbc;
-  }
-  
-  .menu-button:active {
-    background-color: #005b8c;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff; /* Fondo azul claro */
+  border-radius: 30px; /* Ajusta la curvatura de los bordes */
+  padding: 50px;
+  width: 400px;
+  margin: 100px auto; /* Centra el contenedor verticalmente */
+  border: 2px solid #0a0f73; /* Añade un borde azul oscuro */
+}
+
+.menu-title {
+  color: red; /* Color rojo para el título */
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+  text-transform: uppercase; /* Poner el texto en mayúsculas */
+}
+
+.menu-button {
+  background-color: #142d52; /* Azul más oscuro */
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 100%; /* Ajusta el ancho del botón */
+  cursor: pointer;
+  text-align: center;
+  margin: 15px 0; /* Espaciado entre botones */
+  transition: background-color 0.3s;
+}
+
+.menu-button:hover {
+  background-color: #1f4d99; /* Cambia el color cuando pasas el ratón */
+}
+
+.menu-button:active {
+  background-color: #123466; /* Color cuando se pulsa */
+}

@@ -1,6 +1,6 @@
 import React, { useState, ChangeEvent, FormEvent } from 'react';
 import axios from 'axios';
-import './CursoForm.module.css'; // Importar los estilos
+import '../styles/CursoForm.module.css'; // Importar los estilos
 import Menu from './Menu'; // Importamos el nuevo menú
 
 interface Curso {

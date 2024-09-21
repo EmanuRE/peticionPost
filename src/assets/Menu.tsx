@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './Menu.css'; // Puedes crear este archivo para darle estilos al menú
+import '../styles/Menu.css'; // Puedes crear este archivo para darle estilos al menú
 
 
 const Menu: React.FC = () => {

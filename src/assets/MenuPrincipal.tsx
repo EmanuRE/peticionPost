@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './MenuPrincipal.css'; // Importa los estilos
+import '../styles/MenuPrincipal.css'; // Importa los estilos
 
 const Menu = () => {
   return (
     <div className="menu-container">
-      <button className="menu-title">Menu</button>
+      <button className="menu-title">Menu Principal</button>
       <Link to="/consulta">
         <button className="menu-button">Consulta Alumno</button>
       </Link>

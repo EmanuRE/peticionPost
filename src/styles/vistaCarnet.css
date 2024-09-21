@@ -1,17 +1,17 @@
 /* Estilo del formulario */
 body {
-  
   margin: 0;
   font-family: Arial, sans-serif;
 }
 
 .form-container {
   background-color: #fff;
-  padding: 20px;
+  padding: 30px; /* Aumentar el padding para mejor presentación */
   border-radius: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), inset 0 1px 2px rgba(0, 0, 0, 0.1); /* Redondear los botones */
-  max-width: 800px; /* Ancho del formulario */
-  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  max-width: 1100px; /* Ancho del formulario aumentado */
+  width: 100%; /* Asegura que el formulario no exceda el ancho del contenedor */
+  margin: 40px auto; /* Mayor espacio superior e inferior */
 }
 
 /* Encabezado y logo */
@@ -20,22 +20,22 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 20px;
-  width: 100%; 
+  width: 100%;
 }
 
-/* Logo a la derecha del encabezadov */
+/* Logo a la derecha del encabezado */
 .logo {
-  width: 90px; 
+  width: 90px;
   height: auto;
 }
 
 /* Diseño del titulo */
 h1 {
   margin: 0;
-  font-size: 20px; 
+  font-size: 24px; /* Aumentar tamaño de la fuente del título */
   color: #333;
-  white-space: nowrap; 
-  overflow: hidden; 
+  white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
@@ -47,39 +47,39 @@ h1 {
 }
 
 .form-group label {
-  width: 120px; /* Ajuste de los label */
+  width: 150px; /* Aumentar el ancho del label para alineación con campos más largos */
   font-weight: bold;
   color: #333;
   margin-right: 10px;
 }
 
 .form-group input {
-  width: 400px; /* Ancho de campos de entrada */
-  padding: 10px; 
+  width: 600px; /* Ancho aumentado de los campos de entrada */
+  padding: 12px; /* Aumentar padding para mejor apariencia */
   border: 1px solid #ddd;
   border-radius: 4px;
   background-color: #f5f5f5;
   color: #333;
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); /* Redondear los bordes de botones */
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 /* Estilo de botones */
 .button-group {
   display: flex;
   justify-content: center;
-  gap: 10px;
-  margin-top: 20px;
+  gap: 15px; /* Más espacio entre botones */
+  margin-top: 30px; /* Más margen superior para separar botones del formulario */
 }
 
 .button-group button {
   background-color: #007bff;
   color: #fff;
   border: none;
-  padding: 10px 15px;
+  padding: 12px 20px; /* Aumentar el padding de los botones */
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  font-size: 16px;
+  font-size: 18px; /* Aumentar tamaño de fuente en los botones */
 }
 
 /* Boton de BUSCAR */
@@ -105,6 +105,7 @@ h1 {
   background-color: #0056b3;
 }
 
+/* Mensajes de error e información */
 .error-message {
   color: red;
   margin-top: 10px;

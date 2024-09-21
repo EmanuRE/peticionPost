@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import '../assets/vistaCarnet.css';
+import '../styles/vistaCarnet.css';
 import logo from '../assets/logo.png'; // Ruta para el Logo UMG
 import Menu from './Menu'; // Importamos el nuevo menú
 

@@ -1,26 +1,29 @@
 /* Menu.css */
 .menu {
-    background-color: #f8f9fa;
-    padding: 30px;
-  }
-  
-  .menu ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .menu li {
-    display: inline;
-    margin-right: 20px;
-  }
-  
-  .menu a {
-    text-decoration: none;
-    color: #007bff;
-    font-weight: bold;
-  }
-  
-  .menu a:hover {
-    color: #0056b3;
-  }
-  
+  padding: 20px;
+  text-align: center; /* Centramos el menú */
+  margin-top: 40px; /* Añade espacio superior */
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* Asegurarse de que no haya márgenes */
+}
+
+.menu li {
+  display: inline-block; /* Aseguramos que los elementos se alineen correctamente */
+  margin-right: 25px; /* Espaciado entre los elementos del menú */
+}
+
+.menu a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  text-transform: uppercase; /* Convierte el texto en mayúsculas */
+  font-size: 15px; /* Ajusta el tamaño de la fuente */
+}
+
+.menu a:hover {
+  color: #0056b3;
+}

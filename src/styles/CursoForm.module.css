@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  
+  background-color: rgb(248, 246, 246);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@ body {
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 500px; /* Limitar el ancho máximo */
+  max-width: 600px; /* Limitar el ancho máximo a 600px */
   box-sizing: border-box;
   margin: 0 50px; /* Asegurar que no se salga del margen en pantallas pequeñas */
 }
@@ -60,8 +60,12 @@ button:hover {
   background-color: #0056b3 !important;
 }
 
+/* Estilo para el texto verde */
 p {
   text-align: center;
   color: green;
   font-size: 14px;
+  max-width: 500px; /* Limita el ancho máximo del texto verde */
+  margin: 10px auto; /* Centra el texto */
+  word-wrap: break-word; /* Asegura que el texto se ajuste en varias líneas si es necesario */
 }
